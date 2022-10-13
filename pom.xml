@@ -8,8 +8,8 @@
     <modules>
         <module>ms-launcher</module>
         <module>core</module>
-        <module>dataprovider</module>
-        <module>entrypoint</module>
+        <module>entrypoint/api</module>
+        <module>dataprovider/datastore-h2</module>
     </modules>
 
     <parent>
