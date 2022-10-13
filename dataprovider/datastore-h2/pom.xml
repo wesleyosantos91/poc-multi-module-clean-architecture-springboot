@@ -8,9 +8,10 @@
         <artifactId>poc-multi-module-clean-architecture-springboot</artifactId>
         <groupId>io.github.wesleyosantos91</groupId>
         <version>1.0.0</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>dataprovider</artifactId>
+    <artifactId>datastore-h2</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -36,23 +37,5 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

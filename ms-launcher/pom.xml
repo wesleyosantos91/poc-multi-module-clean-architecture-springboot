@@ -31,13 +31,13 @@
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>dataprovider</artifactId>
+            <artifactId>datastore-h2</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>entrypoint</artifactId>
+            <artifactId>api</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

@@ -23,11 +23,6 @@ public class PersonController {
         this.createPersonUserCase = createPersonUserCase;
     }
 
-    @GetMapping
-    public String get() {
-        return "ola mundo";
-    }
-
     @PostMapping
     public ResponseEntity<PersonResponse> create(@Valid @RequestBody PersonRequest request) {
         log.info("Function started 'create person'");
