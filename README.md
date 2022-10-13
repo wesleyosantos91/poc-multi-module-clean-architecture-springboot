@@ -10,6 +10,10 @@
 ![](https://img.shields.io/badge/Language-java-brightgreen)
 ![](https://img.shields.io/badge/Framework-springboot-brightgreen)
 ![](https://img.shields.io/badge/Clean-Architecture-brightgreen)
+
+![Java CI with Maven](https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/workflows/Java%20CI%20with%20Maven/badge.svg?branch=main)
+![GitHub](https://img.shields.io/github/license/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot)
+</div> 
 </div> 
 
 <div align="center">
