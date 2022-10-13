@@ -6,10 +6,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ms-launcher</module>
         <module>core</module>
-        <module>entrypoint/api</module>
         <module>dataprovider/datastore-h2</module>
+        <module>entrypoint/api</module>
+        <module>ms-launcher</module>
     </modules>
 
     <parent>
